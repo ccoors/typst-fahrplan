@@ -1,6 +1,6 @@
 # typst-fahrplan
 
-A [Typst](https://typst.app/) example for building a Fahrplan, inspired by [c3-fahrplan-druck](felixdivo/c3-fahrplan-druck).
+A [Typst](https://typst.app/) example for building a Fahrplan, inspired by [c3-fahrplan-druck](https://github.com/felixdivo/c3-fahrplan-druck).
 
 ## Examples
 ![](https://ccoors.github.io/typst-fahrplan/fahrplan_bremen.svg)
