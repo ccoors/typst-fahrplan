@@ -1,0 +1,55 @@
+page:
+  paper: "a4"
+  columns: 2
+
+header:
+  # logo: "logo.svg"
+  title: "Beispielfahrplan"
+  title_space: 3
+
+footer:
+  calendar_urls:
+    - "https://www.example.com/calendar/"
+  categories:
+    - display: "MT"
+      name_de: "Treffen"
+      name_en: "Meeting"
+    - display: "PLN"
+      name_de: "Plenum"
+      name_en: "Plenum"
+
+  locations:
+    - display: "FOO"
+      name: "Kongresszentrum\nHalle G\n12345 Berlin"
+    - display: "BAR"
+      name: "Hackspace\nHauptraum\n99999 Musterstadt"
+    - display: "ONL"
+      name: "Online"
+
+data:
+  - name: "Montag"
+    events:
+      - time: "15:30"
+        train_id: "MT"
+        train_no: "101"
+        title: "Veranstaltung"
+        description: "Eine Beispiel-Veranstaltung"
+        platform: "FOO"
+        end: "17:00"
+        date_hint: "Nur am 1. Montag im Monat."
+      - time: "19:00"
+        train_id: "MT"
+        train_no: "102"
+        title: "Lorem ipsum dolor sit amet"
+        description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+        platform: ["BAR", "ONL"]
+        end: "22:00"
+  - name: "Sonntag"
+    events:
+      - time: "19:00"
+        train_id: "PLN"
+        train_no: "001"
+        title: "Plenum"
+        description: "Ein Plenumstermin"
+        platform: "FOO"
+        end: "Open End"

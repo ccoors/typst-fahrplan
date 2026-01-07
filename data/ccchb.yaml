@@ -1,0 +1,65 @@
+page:
+  paper: "a4"
+  columns: 2
+
+header:
+  logo: "data/logo_ccchb.svg"
+  title: "Chaos Computer Club Bremen e.V."
+  title_space: .75
+
+footer:
+  calendar_urls:
+    - "https://ccchb.de/calendar.html"
+  categories:
+    - display: "MT"
+      name_de: "Treffen"
+      name_en: "Meeting"
+    - display: "GRP"
+      name_de: "Gruppe"
+      name_en: "Group"
+    - display: "PLN"
+      name_de: "Plenum"
+      name_en: "Plenum"
+
+  locations:
+    - display: "Z1"
+      name: "Zweigstraße 1, 28217 Bremen"
+
+data:
+  - name: "Dienstag"
+    events:
+      - time: "19:00"
+        train_id: "MT"
+        train_no: "TRF"
+        title: "Regelmäßiges Treffen"
+        description: "Unser regelmäßiges Treffen wendet sich an Aktive, Mitglieder und Freunde des Chaos Computer Club Bremens, aber auch an Interessierte aus anderen chaosnahen Gruppen."
+        platform: "Z1"
+        end: "Open End"
+      - time: "20:00"
+        train_id: "PLN"
+        train_no: "C1"
+        title: "Plenum"
+        description: "Plenum! Ple-e-e-num! Plenum ist wichtig für die Revolution."
+        platform: "Z1"
+        end: "ca. 1 Stunde"
+        date_hint: "Das Plenum findet an dem Dienstag statt, der dem 23. Tag des jeweiligen Monats am nächsten ist. Im Dezember findet kein Plenum statt."
+  - name: "Donnerstag"
+    events:
+      - time: "19:00"
+        train_id: "GRP"
+        train_no: "HN"
+        title: "Haecksen"
+        description: "Die Haecksen sind eine Gruppe von technologieinteressierten FLINTA* Personen."
+        platform: "Z1"
+        end: "Open End"
+        date_hint: "Nur am 3. Donnerstag im Monat."
+  - name: "Freitag"
+    events:
+      - time: "19:00"
+        train_id: "MT"
+        train_no: "OC"
+        title: "Open Chaos"
+        description: "Das Open Chaos findet jeden 1. Freitag im Monat, ab 19 Uhr, statt, wo wir uns und unsere Clubräume für neue Personen und Interessierte öffnen. Dort stellen wir uns und unsere Arbeit regelmäßig vor."
+        platform: "Z1"
+        end: "Open End"
+        date_hint: "Nur am 1. Freitag im Monat."

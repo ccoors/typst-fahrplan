@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "config:recommended",
+    "docker:pinDigests",
+    "helpers:pinGitHubActionDigests",
+    ":configMigration",
+    ":pinDevDependencies"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["renovate/renovate"],
+      "automerge": true
+    },
+    {
+      "matchDatasources": ["docker"]
+    }
+  ]
+}
